@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 class User {
     private String name;
     private Integer age;
@@ -34,7 +33,6 @@ class User {
         return name + ", возраст " + age + " лет";
     }
 }
-
 public class Task6 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

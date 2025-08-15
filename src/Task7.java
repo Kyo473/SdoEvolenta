@@ -3,41 +3,6 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Scanner;
 
-class User {
-    private String name;
-    private Integer age;
-
-    // Конструктор класса
-    public User(String name, Integer age) {
-        this.name = name;
-        this.age = age;
-    }
-
-    // Геттеры
-    public String getName() {
-        return name;
-    }
-
-    public Integer getAge() {
-        return age;
-    }
-
-    // Сеттеры
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setAge(Integer age) {
-        this.age = age;
-    }
-
-    // Метод toString()
-    @Override
-    public String toString() {
-        return name + ", возраст " + age + " лет";
-    }
-}
-
 public class Task7 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -66,7 +31,7 @@ public class Task7 {
             }
         });
 
-       
+
         for (User user : users) {
             System.out.println(user.toString());
         }
